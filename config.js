@@ -1,5 +1,5 @@
-// Único endereço de download do site. Aponta para o último release público.
-// O repositório lumeterra-releases publica cada versão como release "latest".
+// Único endereço de download. Troque pela página da pre-release ou pelo ZIP da DEP-01.
+// /latest normalmente exclui pre-releases; consulte README.md antes de divulgar.
 window.LUMETERRA_CONFIG = Object.freeze({
-  downloadUrl: 'https://github.com/lumeterra/lumeterra-releases/releases/latest'
+  downloadUrl: 'https://github.com/Lumeterra/lumeterra-releases/releases/latest'
 });
